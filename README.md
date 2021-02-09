@@ -15,7 +15,7 @@ Project is created with:
 * Prolog version: 8.2.4-1
 	
 ## Setup
-To run this project, install the SWI-PRolog, by accesing this [link](#https://www.swi-prolog.org/download/stable).
+To run this project, install the SWI-PRolog, by accesing this [link](https://www.swi-prolog.org/download/stable).
 
-###Launch
+### Launch
 
