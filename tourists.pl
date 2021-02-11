@@ -28,9 +28,7 @@ iknow_top_goal(X) :-
 
 shape(X) :- menuask(shape, X, [tall_thin, short_thin, big_tall]).
 ears(X) :- menuask(ears, X, [broad, narrow, round]).
-%%clothes(X) :- menuask(clothes, X, [red, modern, dark_red, iron, does_not_have]).
 eyes_type(X) :- menuask(eyes_type, X, [small_round, downturned, deep_big]).
-%%nose(X) :- menuask(nose, X, [metal, flattened, big, small]).
 hair(X) :- menuask(hair, X, [does_have, does_not_have]).
 head_form(X) :- menuask(head_form, X, [round, cyber, rectangular]).
 skin_color(X) :- menuask(skin_color, X, [yellowish_white, blue, blue_green, light_brown]).
@@ -38,9 +36,6 @@ skin_color(X) :- menuask(skin_color, X, [yellowish_white, blue, blue_green, ligh
 
 clothes(X) :- ask(clothes, X).
 nose(X) :- ask(nose, X).
-%%hair(X) :- ask(hair, X).
-%%rings(X) :- ask(rings, X).
-%%ear(X) :- ask(ear, X).
 
 %% Rules
 class(first_type) :-
@@ -56,21 +51,6 @@ class(third_type) :-
 	ears(round).
 
 
-
-/*
-class(blue_tourist) :-
-	skin_color(blue),
-	ears(broad),
-	eyes_type(small_round).
-
-class(bad_tourist) :-
-	skin_color(blue),
-	eyes_type(deep_big).
-
-class(big_tourist) :-
-	head_form(rectangular),
-	shape(big_tall).
-*/
 type(bald) :-
 	hair(does_not_have).
 

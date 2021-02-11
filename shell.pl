@@ -9,8 +9,8 @@ go :-
 	X == quit.
 
 greeting :-
-	write('This is the Expert Prolog shell.'), nl, 
-	write('Enter load, consult, known or quit at the prompt.'), nl.
+	write('This is the Expert Prolog shell taken from teacher.'), nl, 
+	write('Enter load, consult, known, iknow or quit at the prompt.'), nl.
 
 do(load) :- load_kb, !.
 do(consult) :- solve, !.
@@ -20,7 +20,7 @@ do(quit).
 
 do(X) :-
 	write(X), 
-	write('is not a legal command.'), nl, 
+	write(' is not a legal command.'), nl, 
 	fail.
 
 
@@ -87,7 +87,7 @@ solve :-
 	abolish(known/3), 
 	dynamic(known/3), 
 	top_goal(X), 
-	write('The answer is '), write(X), nl.
+	write('The answer is: '), write(X), nl.
 
 solve :-
 	write('No answer found.'), nl.
@@ -103,6 +103,6 @@ know.
 iknow :- 
 	abolish(known/3), 
 	dynamic(known/3),
-	write('Enter your domain of interest: '), 
+	write('Enter one of the tourist type (titan, asgardian, luna_city_citizens, wakandan, zehoberei, luphomoid): '), 
 	read(F), 
 	iknow_top_goal(F).
