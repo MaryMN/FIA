@@ -19,9 +19,9 @@ iknow_top_goal(X) :-
         asserta(known(true, skin_color, green)),
 	asserta(known(true, skin_color, yellowish_white)),
 	asserta(known(true, skin_color, blue)),
-	asserta(known(true, skin_color, light_brown)),	
+	asserta(known(true, skin_color, light_brown)),
 	asserta(known(true, clothes, yes)),
-	asserta(known(true, nose, yes)),	
+	asserta(known(true, nose, yes)),
 	tourist_type(X).
 
 %% Askables
@@ -45,7 +45,7 @@ nose(X) :- ask(nose, X).
 %% Rules
 class(first_type) :-
 	shape(tall_thin),
-	ears(board).
+	ears(broad).
 
 class(second_type) :-
 	shape(short_thin),
@@ -84,7 +84,7 @@ tourist_type(asgardian) :-
 	head_form(rectangular),
 	skin_color(yellowish_white),
 	clothes(yes),
-	nose(yes).	
+	nose(yes).
 
 tourist_type(wakandan) :-
 	class(second_type),
@@ -99,10 +99,10 @@ tourist_type(luphomoid) :-
 	class(third_type),
 	eyes_type(small_round),
 	type(with_hair),
-	head_form(cyber),	
+	head_form(cyber),
 	skin_color(blue),
 	clothes(yes),
-	nose(yes).	
+	nose(yes).
 
 tourist_type(zehoberei) :-
 	class(first_type),
@@ -113,25 +113,25 @@ tourist_type(zehoberei) :-
 	clothes(yes),
 	nose(yes).
 
-tourist_type(luluna_city_citizens) :-
+tourist_type(luna_city_citizens) :-
 	class(first_type),
 	eyes_type(small_round),
 	type(bard),
 	head_form(round),
-	skin_color(blue).	
+	skin_color(blue).
 	%%clothes(no),
 	%%nose(no),
-	
+
 
 tourist_type(titan) :-
         class(second_type),
 	eyes_type(small_round),
 	type(bald),
 	head_form(round),
-	skin_color(blue),	
+	skin_color(blue),
 	clothes(yes),
 	nose(yes).
-	
+
 
 
 
