@@ -34,6 +34,13 @@ docker run -it dockerfile
 
 When the environment is setted up write the **go.** predicat.
 After that from menu choose load and write the name of file (Figure 1).
+```
+$ swipl
+?:| go.
+:> load.
+:> 'tourists.pl'.
+```
+
 And just type criteria that you want. The answer can be type of tourist if all answer satisfied the rules or the system will disply the message "No answer found")(Figura 2.)
 ![Example 1](https://github.com/MaryMN/FIA/blob/master/attachments/no_asnw.png "No answer found")
 
