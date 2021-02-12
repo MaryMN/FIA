@@ -22,7 +22,7 @@ To run this project, install the SWI-PRolog, by accesing this [link](https://www
 
 Or by accessing the [link](https://swish.swi-prolog.org/) for running it online.
 
-And the third option, is to download the [Docker file] (https://github.com/MaryMN/FIA/blob/master/dockerfile), built it by writing in your console and run it>
+And the third option, is to download the [Docker file](https://github.com/MaryMN/FIA/blob/master/dockerfile), built it by writing in your console and run it>
 ```
 docker build -t dockerfile .
 ```
@@ -34,4 +34,15 @@ docker run -it dockerfile
 
 When the environment is setted up write the **go.** predicat.
 After that from menu choose load and write the name of file (Figure 1).
+And just type criteria that you want. The answer can be type of tourist if all answer satisfied the rules or the system will disply the message "No answer found")(Figura 2.)
+![Example 1](https://github.com/MaryMN/FIA/blob/master/attachments/no_asnw.png "No answer found")
+
+![Example 2](https://github.com/MaryMN/FIA/blob/master/attachments/exem.png "Example of tourist 0 forward chaining.")
+
+Above was some example of implementing forward chaining, and below are 2 example of implementing backward chaining. (Figure 3,4)
+
+![Example 3](https://github.com/MaryMN/FIA/blob/master/attachments/known.png "Backward chaining-Known predicate")
+
+![Example 4](https://github.com/MaryMN/FIA/blob/master/attachments/iknow.png "Backward chaining-IKnow predicate")
+
 
