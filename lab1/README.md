@@ -42,14 +42,14 @@ $ swipl
 ```
 
 And just type criteria that you want. The answer can be type of tourist if all answer satisfied the rules or the system will disply the message "No answer found")(Figura 2.)
-![Example 1](https://github.com/MaryMN/FIA/blob/master/attachments/no_asnw.png "No answer found")
+![Example 1](https://github.com/MaryMN/FIA/blob/master/lab1/attachments/no_asnw.png "No answer found")
 
-![Example 2](https://github.com/MaryMN/FIA/blob/master/attachments/exem.png "Example of tourist 0 forward chaining.")
+![Example 2](https://github.com/MaryMN/FIA/blob/master/lab1/attachments/exem.png "Example of tourist 0 forward chaining.")
 
 Above was some example of implementing forward chaining, and below are 2 example of implementing backward chaining. (Figure 3,4)
 
-![Example 3](https://github.com/MaryMN/FIA/blob/master/attachments/known.png "Backward chaining-Known predicate")
+![Example 3](https://github.com/MaryMN/FIA/blob/master/lab1/attachments/known.png "Backward chaining-Known predicate")
 
-![Example 4](https://github.com/MaryMN/FIA/blob/master/attachments/iknow.png "Backward chaining-IKnow predicate")
+![Example 4](https://github.com/MaryMN/FIA/blob/master/lab1/attachments/iknow.png "Backward chaining-IKnow predicate")
 
 
