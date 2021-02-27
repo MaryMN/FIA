@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
+from sklearn import metrics
 
 dataset = pd.read_csv('D:\lab1\lab3\Datasets\data.txt')
 
@@ -28,7 +29,7 @@ df = pd.DataFrame({'Actual': y_test, 'Predicted': y_pred})
 df
 print(df.head())
 
-from sklearn import metrics
+
 print('Mean Absolute Error:', metrics.mean_absolute_error(y_test, y_pred))
 print('Mean Squared Error:', metrics.mean_squared_error(y_test, y_pred))
 print('Root Mean Squared Error:', np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
