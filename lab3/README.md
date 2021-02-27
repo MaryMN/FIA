@@ -55,3 +55,6 @@ When you are in Google Colab, is needed to upload the file with data in section 
   ![Example 1](https://github.com/MaryMN/FIA/blob/master/lab3/images/colab.png "Upload data file")
   
   After that just upload the Notebook file to your GoogleDrive and run it.
+  
+  
+ *[Source code was taken from here](https://stackabuse.com/linear-regression-in-python-with-scikit-learn/)
